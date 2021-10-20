@@ -73,8 +73,65 @@
 
 // ------------------------------------
 
-y = 10
-z = 5
-x = 10 * 5
-console.log(x)
+// y = 10
+// z = 5
+// x = 10 * 5
+// console.log(x)
+
+
+
+// 4. Arrays
+
+// const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+// console.log(avengers[0])
+
+// ----------------------------------
+
+// const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+// function cambiarAvengers() {
+//     avengers.shift()
+//     avengers.unshift("IRONMAN")
+//     console.log(avengers)
+// }
+
+// cambiarAvengers()
+
+// -------------------------------
+
+// const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+// alert(avengers.length)
+
+// -----------------------------------
+
+// const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+
+// rickAndMortyCharacters.push("Morty", "Summer")
+
+// console.log(rickAndMortyCharacters.length)
+
+// console.log(rickAndMortyCharacters[4])
+
+// ------------------------------------
+
+// const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+
+// rickAndMortyCharacters.pop()
+
+// console.log(rickAndMortyCharacters.length)
+
+// console.log(rickAndMortyCharacters[0], rickAndMortyCharacters[4])
+
+// -------------------------------------
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+
+rickAndMortyCharacters.splice(1, 1)
+console.log(rickAndMortyCharacters)
+
+
+
+
 
